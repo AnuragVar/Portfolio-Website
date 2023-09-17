@@ -41,7 +41,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl w-3/4 w-2/3" /* Adjusted image width */
+            className="rounded-2xl w-4/4 w-3/1" /* Adjusted image width */
           />
         </div>
       </div>
