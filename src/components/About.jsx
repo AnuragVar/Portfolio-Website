@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full p-20 bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="mx-auto flex flex-col justify-center w-full p-7">
         <div>
@@ -23,8 +23,8 @@ const About = () => {
         <br />
 
         <p className="text-xl opacity-90">
-          I'm an active problem solver. My LeetCode rating stands at 1664 with
-          300+ Questions, and I've tackled challenges on CodeChef with a rating
+          I'm an active problem solver. My LeetCode rating stands at 1732 with
+          500+ Questions, and I've tackled challenges on CodeChef with a rating
           of 1436. My proficiency extends beyond web development to encompass
           C++, Linux, and Git. Beyond academics and coding, I proudly serve as a
           student coordinator in Zeal Society,a vibrant community committed to

@@ -8,7 +8,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <NavBar />
       <Home />
       <About />

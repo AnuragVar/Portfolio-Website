@@ -4,8 +4,9 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import nodejs from "../assets/node.png";
+import expressjs from "../assets/expressjs.png";
+import mongodb from "../assets/mongodb.jpeg";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -44,12 +45,24 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: nodejs,
+      title: "Node.js",
       style: "shadow-pink-400",
     },
     {
       id: 8,
+      src: expressjs,
+      title: "Express.js",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -57,7 +70,10 @@ const Experience = () => {
   ];
 
   return (
-    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black">
+    <div
+      name="experience"
+      className="p-20 bg-gradient-to-b from-black to-gray-800"
+    >
       <div className=" mx-auto p-4 flex flex-col justify-center text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
