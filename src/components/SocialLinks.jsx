@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       style: "rounded-br-md",
-      href: "/public/resume.pdf",
+      href: "/public/AnuragCV.pdf",
       download: true,
     },
   ];
