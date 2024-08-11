@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:varshneyanurag237@gmail.com",
+      href: "mailto:varshneyanurag240@gmail.com",
     },
     {
       id: 4,
@@ -41,8 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       style: "rounded-br-md",
-      href: "/public/resume.pdf",
-      download: true,
+      href: "https://drive.google.com/file/d/1werp-FXtBnUwMRa-OjCT9Ckr4mgPLHaI/view?usp=sharing",
     },
   ];
   return (

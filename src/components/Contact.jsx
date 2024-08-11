@@ -1,19 +1,38 @@
 import React from "react";
 
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 const Contact = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true,
+  });
   return (
-    <div
+    <section
+      ref={ref}
       name="contact"
-      className="w-full bg-gradient-to-b from-gray-800 to-black  text-white p-5 sm:p-20 pb-0  "
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-white p-5 sm:p-20 pb-0  "
     >
-      <div className="pb-8">
-        <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+      <div className="text-center">
+        <motion.h2
+          initial={{ y: 100, opacity: 60 }}
+          animate={inView ? { y: 0, opacity: 1 } : {}}
+          transition={{ duration: 0.5 }}
+          className="mb-6 text-4xl font-extrabold md:text-5xl lg:text-6xl font-montserrat __gradientText"
+        >
           Contact
-        </p>
-        <p className="py-6 text-xl">
+        </motion.h2>
+        <motion.p
+          initial={{ y: 100, opacity: 0 }}
+          animate={inView ? { y: 0, opacity: 1 } : {}}
+          transition={{ duration: 0.7 }}
+          className={` font-medium text-sm md:text-xl lg:text-2xl text-accent max-w-[706px] mx-auto`}
+        >
           Submit the form below to get in touch with me
-        </p>
+        </motion.p>
       </div>
+
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="flex justify-center items-center">
           <form
@@ -46,7 +65,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
