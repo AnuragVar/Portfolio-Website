@@ -96,7 +96,7 @@ const Experience = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1 } : {}}
             transition={{ duration: 0.7 }}
-            className={`text-base font-medium text-sm md:text-xl lg:text-2xl text-accent max-w-[706px] mx-auto`}
+            className={` font-medium text-sm md:text-xl lg:text-2xl text-accent max-w-[706px] mx-auto`}
           >
             Leveraged React.js, Next.js, TypeScript, Tailwind CSS, Node.js, and
             various other tools to build and style dynamic, robust web

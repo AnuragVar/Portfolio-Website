@@ -116,7 +116,7 @@ export default function Projects() {
           initial={{ y: 100, opacity: 0 }}
           animate={inView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.7 }}
-          className={`text-base font-medium text-sm md:text-xl lg:text-2xl text-accent max-w-[706px] mx-auto`}
+          className={` font-medium text-sm md:text-xl lg:text-2xl text-accent max-w-[706px] mx-auto`}
         >
           Take a look at something I&apos;ve worked on, such as a case study,
           real project, and more
