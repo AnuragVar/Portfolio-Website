@@ -41,7 +41,12 @@ const SocialLinks = () => {
         </>
       ),
       style: "rounded-br-md",
+<<<<<<< HEAD
       href: "https://drive.google.com/file/d/1werp-FXtBnUwMRa-OjCT9Ckr4mgPLHaI/view?usp=sharing",
+=======
+      href: "/public/AnuragCV.pdf",
+      download: true,
+>>>>>>> 4ea45a54f0bf4bcff671fd4b618bfb7f0d4ea717
     },
   ];
   return (
